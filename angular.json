@@ -24,15 +24,17 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bootstrap/js/popper.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -82,15 +84,17 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bootstrap/js/popper.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js"
+            ]
           }
         }
       }

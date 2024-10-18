@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    padding:120px
+}
+
+.pb-11rem{
+    padding-bottom: 11rem;
+}
+
+.text-size-14px {
+    font-size:14px !important
+}

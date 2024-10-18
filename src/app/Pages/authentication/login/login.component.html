@@ -1,0 +1,27 @@
+
+<div class="login">
+    <img src="../../../../assets/images/user.png" alt="profile image" class="image">
+    <form [formGroup]="loginForm">
+        <div class="form-group">
+            <label>Email Address</label>
+            <input class="form-control text-size-14px text bg-white" type="email" id="email" formControlName="email" >
+            <span class="text-danger text-size-14px mt-2" *ngIf="formSubmitted">
+                <ng-container *ngIf="checkError('email','required')">
+                    Email is required
+                </ng-container>
+            </span>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input class="form-control text-size-14px text bg-white" type="password" id="email" formControlName="email">
+            <span class="text-danger text-size-14px mt-2" *ngIf="formSubmitted">
+                <ng-container *ngIf="checkError('password','required')">
+                    Password is required
+                </ng-container>
+            </span>
+        </div>
+        <button class="button" (click)="loginbutton()">Login</button>
+        <p class="para">New User ? <a class="navigate" (click)="register()">Click here to register</a></p>
+    </form>
+</div>
+<img src="../../../../assets/images/home-transformed.jpeg" class="bgimage">
