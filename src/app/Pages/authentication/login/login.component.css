@@ -1,14 +1,42 @@
+.login-container{
+    background-image:url('../../../../assets/images/login.jpeg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+.login-container::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    z-index:1;
+}
+.main-content{
+    position:relative;
+    z-index:2;
+    color:white;
+    
+}
 .login{
     width:400px;
     height:450px;
-    background-color:lightgreen;
+    background:transparent;
     align-content:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top:30px;
+    /*margin-top:30px;*/
     margin-left:580px;
+    position:relative;
     padding-top:30px;
     padding-left:20px;
-    border-radius:100px;
+    border:2px solid black;
+    border-radius:50px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.75);
 }
 .image{
     height:80px;
@@ -36,21 +64,22 @@ input{
     display:block;
     margin:0 auto;
     border-radius:8px;
-    background-color:coral;
+    background:transparent;
+    color:white;
+    border:2px solid crimson;
     width:100px;
     padding:3px;
+}
+.button:hover{
+    background-color:crimson;
 }
 .para{
     text-align:center;
     margin-top:5px;
 }
-.bgimage{
-    height:249px;
-    width:100%;
-}
 .navigate{
     cursor:pointer;
-    color:black;
+    color:white;
     text-decoration:none;
 }
 .navigate:hover{

@@ -23,8 +23,5 @@ export class HomeComponent {
   getstarted() {
     this.router.navigate(['home/login'])
   }
-  about() {
-    this.router.navigate(['home/about'])
-  }
   
 }

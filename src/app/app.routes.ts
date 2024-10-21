@@ -11,6 +11,7 @@ import { StudentregisterComponent } from './Pages/authentication/studentregister
 import { AdminregisterComponent } from './Pages/authentication/adminregister/adminregister.component';
 import { ParentregisterComponent } from './Pages/authentication/parentregister/parentregister.component';
 import { LoginComponent } from './Pages/authentication/login/login.component';
+import { ContactComponent } from './Pages/authentication/contact/contact.component';
 
 
 
@@ -22,7 +23,8 @@ export const routes: Routes = [
     { path: 'home/login/register/studentregister', component: StudentregisterComponent },
     { path: 'home/login/register/adminregister', component: AdminregisterComponent },
     { path: 'home/login/register/parentregister', component: ParentregisterComponent },
-    { path: 'home/login', component: LoginComponent}
+    { path: 'home/login', component: LoginComponent },
+    { path: 'home/contact', component: ContactComponent}
 ];
 
 @NgModule({

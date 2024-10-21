@@ -1,5 +1,6 @@
 import { AboutComponent } from "./authentication/about/about.component";
 import { AdminregisterComponent } from "./authentication/adminregister/adminregister.component";
+import { ContactComponent } from "./authentication/contact/contact.component";
 import { HomeComponent } from "./authentication/home/home.component";
 import { LoginComponent } from "./authentication/login/login.component";
 import { ParentregisterComponent } from "./authentication/parentregister/parentregister.component";
@@ -14,5 +15,6 @@ export const PagesDeclaration = [
     StudentregisterComponent,
     AdminregisterComponent,
     ParentregisterComponent,
-    LoginComponent
+    LoginComponent,
+    ContactComponent
 ]
