@@ -25,7 +25,7 @@
 }
 .login{
     width:400px;
-    height:450px;
+    height:500px;
     background:transparent;
     align-content:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -84,4 +84,42 @@ input{
 }
 .navigate:hover{
     color:blue;
+}
+
+.separator{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:4px;
+}
+.line{
+    flex:1;
+    border-bottom:2px solid white;
+    margin-right:20px;
+}
+.text{
+    
+    font-size:16px;
+    font-weight:bold;
+    padding-right:5px;
+}
+
+.login-google{
+    display:block;
+    margin:0 auto;
+    border-radius:8px;
+    background:transparent;
+    color:white;
+    border:2px solid crimson;
+    width:150px;
+    margin-top:4px;
+    padding:3px;
+}
+.login-google:hover{
+    background-color:crimson;
+}
+.google{
+    height:20px;
+    width:30px;
+    padding:3px;
 }

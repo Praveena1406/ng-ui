@@ -25,6 +25,9 @@
 h2{
     text-align:center;
 }
+h3{
+    color:black;
+}
 .para{
     text-align:center;
     font-size:18px;
@@ -35,7 +38,7 @@ h2{
     margin-left:550px;
     width:fit-content;
     padding:50px;
-    background-color:lightgreen;
+    background-color:#FFF8BC;
     border-radius:10px; 
     height:470px;  
 }
@@ -55,7 +58,7 @@ input{
     color:black;
 }
 input::placeholder{
-    color:white;
+    color:black;
 }
 #message{
     height:100px;
@@ -67,14 +70,14 @@ input::placeholder{
     color:black;
 }
 #message::placeholder{
-    color:white;
+    color:black;
     padding-left:20px;
     padding-top:4px;
 }
 .button{
     width:100px;
     height:45px;
-    color:white;
+    color:black;
     border:2px solid crimson;
     background:transparent;
     border-radius:50px;
@@ -92,8 +95,7 @@ input::placeholder{
     margin-top:50px;
 }
 .send-image{
-    height:20px;
-    
+    height:20px;   
 }
 
 .contact-details-below{
